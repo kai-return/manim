@@ -1,0 +1,19 @@
+python-manim 编程流程
+1、python-m venv venv 创建名为venv（后一个）的虚拟环境
+2、没有设置好manim时即使写好了manim代码但是无法直接运行和测试
+3、应该要按github中提示的requirements.txt安装必要文件
+4、安装方式是进入manim文件夹然后pip install -e.  末尾这个点不能省略
+5、安装时出现了集中警告提示，包括pyperclip和validators,按照之前的经验，不影响
+6、到这步后manim就可以运行了，但是中文和其他配置还没完成
+7、当然还有设置一些必备的文件夹，如temporary_storage
+8、除了中文设置外，都可以在manimgl --config命令中解决
+9、最新版本中一般设置local-config就可以了
+10、但是，新版manim中没有之前那么细致了，关系到中文的latex设置被默认化了
+11、不清楚直接设置MiKTeX行不行
+12、新生成的custom_config并不再manim的文件夹中，是并列的关系
+13、和之前一样，设置的ultra_high还是报错keyerror
+14、改成4k可以运行了，估计就是不同名称冲突的问题，custom中指代ultra_high就是4K
+15、截至到目前，还有中文和调试问题没有解决2023-3-13 21：42
+16、目前看来，3b1b将tex类继承在manimlib中的tex_templates.yml,可以从这试试.
+17、将原本的额Miktex改为xelatex看看能否输出中文
+18、还是不可以，输出的是中文的编码
