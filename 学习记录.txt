@@ -17,3 +17,5 @@ python-manim 编程流程
 16、目前看来，3b1b将tex类继承在manimlib中的tex_templates.yml,可以从这试试.
 17、将原本的额Miktex改为xelatex看看能否输出中文
 18、还是不可以，输出的是中文的编码
+19、今天到这吧，中文和调试真是个大问题
+20、当然还有不同文件夹下命令行运行manimgl的反应
