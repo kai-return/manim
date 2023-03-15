@@ -4,6 +4,7 @@ default:
   description: ""
   compiler: latex
   preamble: |-
+    
     \usepackage[english]{babel}
     \usepackage[utf8]{inputenc}
     \usepackage[T1]{fontenc}
@@ -54,6 +55,7 @@ ctex:
     \usepackage[varg]{txfonts}
     \usepackage{mathptmx}
     \usepackage[charter]{mathdesign}
+    \\上述为字体和数学符号的加入
     \usepackage[utf8]{ctex}
     \usepackage[english]{babel}
     \usepackage{amsmath}
