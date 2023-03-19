@@ -8,7 +8,7 @@ class Surface(ThreeDScene):
         surface_text.fix_in_frame()#  将字体纳入整体模型中，具体信息不知
         surface_text.to_edge(UP)#将元素放置在上端边缘（0，1，0）
         self.add(surface_text)
-        self.wait(0.1) #单位是秒，应该不是毫秒
+        self.wait(0.1) #单位是秒，
 
         torus1 = Torus(r1=1,r2=1)
         torus2 = Torus(r1=3,r2=1)
