@@ -72,7 +72,7 @@ class Surface(ThreeDScene):
             self.frame.animate.increment_theta(-20*DEGREES),
             run_time = 3
         )
-        #add ambient rotation 添加环境旋转,难不成这就是成型的元素的界面操作？
+        #add ambient rotation 添加自动旋转效果。
         self.frame.add_updater(lambda m,dt:m.increment_theta(-0.1*dt))
 
         #play around with the light is 
