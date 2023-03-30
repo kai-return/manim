@@ -1,6 +1,8 @@
+# _*_ coding: utf-8 _*_
 
 import scipy.integrate
-from manim_learning.manim集中引用 import *
+
+from 可能的自我文件引用.manim集中引用 import *
 
 
 USE_ALMOST_FOURIER_BY_DEFAULT = True
